@@ -3,6 +3,7 @@ import React from 'react';
 import { NavBar } from '../../components/NavBar/NavBar'
 import { Hero } from "./Hero"; 
 import { Features } from './Features';
+import { Plans } from './Plans';
 
 import "./Home.css";
 
@@ -16,6 +17,7 @@ export const HomeLayout: React.FC<HomeLayoutProps> = (props: HomeLayoutProps) =>
             <NavBar isAuthenticated={false} />
             <Hero />
             <Features />
+            <Plans />
         </header>
     )
 }

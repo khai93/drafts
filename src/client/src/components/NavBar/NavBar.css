@@ -20,7 +20,7 @@
 }
 
 .navbar__ctn > img {
-    width: 90px;
+    width: 100px;
     cursor: pointer;
     margin-right: auto;
 }
@@ -31,13 +31,16 @@
     text-decoration: none;
     color: var(--secondary-color);
     padding: 8px 25px;
-    font-size: 13px;
+    font-size: 16px;
     border-radius: 5px;
     font-weight: 400;
+    transition-duration: 0.2s;
 }
 
 .navbar__login_btn:hover {
     cursor: pointer;
+    background-color: var(--secondary-color);
+    color: whitesmoke;
 }
 
 .navbar__ctn > ul > li {
@@ -47,7 +50,7 @@
 .navbar__ctn > ul > li > a {
     text-decoration: none;
     color: var(--dark-color);
-    font-size: 14px;
+    font-size: 16px;
     margin-left: auto;
 }
 

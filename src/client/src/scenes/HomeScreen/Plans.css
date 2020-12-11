@@ -1,0 +1,94 @@
+.plans__ctn {
+    margin-top: 50px;
+    text-align: center;
+}
+.plans__ctn > h2 {
+    color: var(--primary-color);
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+.plans__ctn > h5 {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plans_pricing_ctn {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 17px 27px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: left;
+}
+
+.plans_pricing_ctn:nth-of-type(2) {
+    padding: 22px 32px 17px 32px;
+    border: 2px solid var(--secondary-color);
+}
+
+.plans_pricing_ctn > div > h1 {
+    margin-bottom: 0;
+}
+
+.plans_pricing_ctn:nth-of-type(2) > div > h1 {
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+}
+
+.plans_pricing_price {
+    margin: 0;
+}
+
+.plans_pricing_price > h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 26px;
+    display: inline-block;
+}
+
+
+.plans_pricing_price {
+    font-weight: bold;
+}
+
+.plans_pricing_text {
+    display: block;
+    letter-spacing: 2px;
+    margin: 5px 0 20px 0;
+}
+
+.plans_pricing_ctn > div > ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.plans_pricing_ctn:nth-of-type(2) > div > ul {
+    margin: 40px 0;
+}
+
+.plans_pricing_ctn > div > ul > li {
+    margin: 10px 0;
+}
+
+.plans_pricing_ctn > div > button {
+    border: none;
+    background-color: #2B2B2B;
+    padding: 13px 45px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.plans_pricing_ctn:nth-of-type(2) > div > button {
+    background-color: var(--secondary-color);
+}
