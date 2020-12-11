@@ -1,0 +1,59 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.navbar__ctn {
+    display: flex;
+    padding: 5px 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar__ctn > ul {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar__ctn > ul > li {
+    display: inline-block;
+}
+
+.navbar__ctn > img {
+    width: 100px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbar__login_btn {
+    background: transparent;
+    border: 0.25px solid var(--secondary-color);
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 8px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 400;
+    transition-duration: 0.2s;
+}
+
+.navbar__login_btn:hover {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+}
+
+.navbar__ctn > ul > li {
+    margin: 0 28px;
+}
+
+.navbar__ctn > ul > li > a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 16px;
+    margin-left: auto;
+}
+
+.navbar__ctn > ul > li > a:hover {
+    text-decoration: underline;
+}
