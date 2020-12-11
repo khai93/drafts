@@ -4,6 +4,7 @@ import { NavBar } from '../../components/NavBar/NavBar'
 import { Hero } from "./Hero"; 
 import { Features } from './Features';
 import { Plans } from './Plans';
+import { Footer } from '../../components/Footer/Footer';
 
 import "./Home.css";
 
@@ -18,6 +19,7 @@ export const HomeLayout: React.FC<HomeLayoutProps> = (props: HomeLayoutProps) =>
             <Hero />
             <Features />
             <Plans />
+            <Footer />
         </header>
     )
 }

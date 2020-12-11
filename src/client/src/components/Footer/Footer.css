@@ -1,0 +1,22 @@
+.footer_ctn {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 30px 60px;
+    color: white;
+    background-color: #402C48;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+}
+
+.footer_ctn > a:nth-of-type(1) {
+    margin-left: auto;
+}
+
+.footer_ctn > a  {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
