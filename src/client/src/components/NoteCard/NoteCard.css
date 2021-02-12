@@ -1,0 +1,25 @@
+.noteCard__main {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.noteCard__main > img {
+    border: 1px solid black;
+    width: 15em;
+    height: 12em;
+}
+
+.noteCard__main > h3 {
+    margin: 0;
+    margin-top: 5px;
+    color: var(--dark-purple);
+}
+
+.noteCard__main > h5 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #848080
+}

@@ -1,0 +1,99 @@
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.login__ctn {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: rgb(121,4,175);
+    background: linear-gradient(180deg, rgba(121,4,175,1) 0%, rgba(159,17,182,1) 50%, rgba(207,110,109,1) 100%);
+    background-size: 100% 100%;
+    animation: gradient 5s ease infinite;
+}
+
+.login__form {
+    background-color: #F5F5F5;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+}
+
+.login__form > img {
+    margin: 10px 0 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.login__form input {
+    display: block;
+}
+
+.login__form > input[type="text"],
+.login__form > input[type="password"] {
+    width: 23em;
+    font-size: 18px;
+    background-color: #eeeeee;
+    margin: 2px 0;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 5px;
+    font-weight: 0;
+}
+
+.login__form > input[type="submit"] {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: #7ECE67;
+    border: none;
+    margin: 50px 0 15px 0;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.login__form > input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #74c05d;
+}
+
+.login__form > span {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.login__form a {
+    color: #0074FF;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.login__account {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 0% 80%;
+	}
+	100% {
+		background-position: 0% 40%;
+	}
+}

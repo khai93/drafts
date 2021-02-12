@@ -39,7 +39,7 @@ body {
     padding: 17px 25px;
     font-weight: bold;
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .hero__inner > button:hover {
@@ -47,12 +47,13 @@ body {
 }
 
 .hero__inner > h1 {
-    font-size: 42px;
+    font-size: 38px;
     margin: 0;
 }
 
 .hero__inner > h2 {
     font-weight: normal;
-    width: 500px;
-    font-size: 24px;
+    margin: 10px 0;
+    width: 750px;
+    font-size: 28px;
 }

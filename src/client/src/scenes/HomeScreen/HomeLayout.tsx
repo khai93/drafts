@@ -14,12 +14,12 @@ export interface HomeLayoutProps {
 
 export const HomeLayout: React.FC<HomeLayoutProps> = (props: HomeLayoutProps) => {
     return (
-        <header>
+        <div>
             <NavBar isAuthenticated={false} />
             <Hero />
             <Features />
             <Plans />
             <Footer />
-        </header>
+        </div>
     )
 }
